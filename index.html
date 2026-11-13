@@ -239,14 +239,33 @@
           <a href="mailto:gokuls2k01@gmail.com" style="border:1px solid #222222;border-radius:999px;padding:12px 24px;font-size:15px;font-weight:500;background:#0b0b0b;color:#ffffff;text-decoration:none;">gokuls2k01@gmail.com</a>
         </div>
 
-        <form id="contact-form" style="max-width:640px;margin:0 auto 48px;display:flex;flex-direction:column;gap:14px;text-align:left;">
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;">
-            <input type="text" id="name" placeholder="Your Name" required style="width:100%;background:#0b0b0b;border:1px solid #222222;border-radius:14px;padding:16px 18px;color:#ffffff;font:inherit;font-size:15px;">
-            <input type="email" id="email" placeholder="Your Email" required style="width:100%;background:#0b0b0b;border:1px solid #222222;border-radius:14px;padding:16px 18px;color:#ffffff;font:inherit;font-size:15px;">
-          </div>
-          <textarea id="message" rows="5" placeholder="Describe your project needs..." required style="width:100%;background:#0b0b0b;border:1px solid #222222;border-radius:14px;padding:16px 18px;color:#ffffff;font:inherit;font-size:15px;resize:vertical;min-height:140px;"></textarea>
-          <button type="submit" style="width:100%;display:inline-block;padding:16px 24px;border-radius:999px;font-size:15px;font-weight:600;border:1px solid #ffffff;color:#000000;background:#ffffff;cursor:pointer;font-family:inherit;text-align:center;">Send Message</button>
-        </form>
+        
+<form id="contact-form" style="max-width:640px;margin:0 auto 48px;display:flex;flex-direction:column;gap:18px;text-align:left;">
+
+  <div>
+    <label for="name" style="display:block;color:#ffffff;margin-bottom:8px;">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required
+      style="width:100%;box-sizing:border-box;background:#0b0b0b;border:1px solid #333;border-radius:14px;padding:16px 18px;color:#ffffff;font:inherit;font-size:15px;">
+  </div>
+
+  <div>
+    <label for="email" style="display:block;color:#ffffff;margin-bottom:8px;">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required
+      style="width:100%;box-sizing:border-box;background:#0b0b0b;border:1px solid #333;border-radius:14px;padding:16px 18px;color:#ffffff;font:inherit;font-size:15px;">
+  </div>
+
+  <div>
+    <label for="message" style="display:block;color:#ffffff;margin-bottom:8px;">Your Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required
+      style="width:100%;box-sizing:border-box;background:#0b0b0b;border:1px solid #333;border-radius:14px;padding:16px 18px;color:#ffffff;font:inherit;font-size:15px;resize:vertical;min-height:140px;"></textarea>
+  </div>
+
+  <button type="submit" style="width:100%;padding:16px 24px;border-radius:999px;font-size:15px;font-weight:600;border:1px solid #ffffff;color:#000000;background:#ffffff;cursor:pointer;font-family:inherit;">
+    Send Message
+  </button>
+
+</form>
+
 
         <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:14px;border-top:1px solid #222222;padding-top:36px;">
           <a href="https://www.linkedin.com/in/gokulsadhasivam/" target="_blank" rel="noopener" aria-label="LinkedIn" style="min-width:52px;height:52px;padding:0 14px;border-radius:999px;border:1px solid #222222;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#8f8e8e;text-decoration:none;">LinkedIn</a>
